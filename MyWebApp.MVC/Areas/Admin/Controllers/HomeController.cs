@@ -57,7 +57,7 @@ namespace MyWebApp.MVC.Areas.Admin.Controllers
             ViewBag.ArticleCount = articles.Data.Articles.Count;
             ViewBag.CategoryCount = categories.Data.Categories.Count;
             return View();
-# comment
+
         }
         public async Task<IActionResult> Setting()
         {
